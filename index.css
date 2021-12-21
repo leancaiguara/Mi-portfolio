@@ -556,3 +556,7 @@ body:not(.user-is-tabbing) a:focus {
     margin: 0 var(--gutter-huge) 0 0;
   }
 }
+
+.contact__info {
+  max-width: var(--container-medium-width);
+}
