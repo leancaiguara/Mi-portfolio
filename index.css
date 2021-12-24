@@ -430,10 +430,6 @@ body:not(.user-is-tabbing) a:focus {
   }
 }
 
-/* --------------------------------------- */
-/* ----- Work ----- */
-/* --------------------------------------- */
-
 .work__box {
   display: flex;
   align-items: center;
@@ -499,10 +495,6 @@ body:not(.user-is-tabbing) a:focus {
   }
 }
 
-/* --------------------------------------- */
-/* ----- Clients ----- */
-/* --------------------------------------- */
-
 .client__logos {
   display: flex;
   justify-content: space-between;
@@ -525,10 +517,6 @@ body:not(.user-is-tabbing) a:focus {
   }
 }
 
-/* --------------------------------------- */
-/* ----- About ----- */
-/* --------------------------------------- */
-
 .about__content {
   display: flex;
   flex-direction: row-reverse;
@@ -542,8 +530,22 @@ body:not(.user-is-tabbing) a:focus {
   }
 }
 
+.about__me {
+  width: 600px;
+}
+
+@media (max-width: 901px) {
+  .about__me {
+    width: 100%;
+  }
+}
+
 .about__photo-container {
   margin-bottom: var(--gutter-normal);
+}
+
+.about__photo {
+  height: 600px;
 }
 
 @media (min-width: 901px) {
